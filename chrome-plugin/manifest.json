@@ -25,6 +25,11 @@
       "run_at" : "document_end",
       "matches" : ["https://www.hackerearth.com/problem/*"],
       "js" : ["jquery.js", "basic.js", "hackerearth.js"]
+    },
+    {
+      "run_at" : "document_end",
+      "matches" : ["https://www.hackerrank.com/challenges/*"],
+      "js" : ["jquery.js", "basic.js", "hackerrank.js"]
     }
   ],
   "background": {
@@ -37,6 +42,6 @@
     "128": "icon.png"
   },
   "permissions" : [
-    "tabs", "nativeMessaging", "https://www.codechef.com/*", "http://www.spoj.com/*", "http://codeforces.com/*", "https://www.hackerearth.com/*"
+    "tabs", "nativeMessaging", "https://www.codechef.com/*", "http://www.spoj.com/*", "http://codeforces.com/*", "https://www.hackerearth.com/*", "https://www.hackerrank.com/*"
   ]
 }
